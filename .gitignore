@@ -1,0 +1,59 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# OS / editor
+.DS_Store
+.vscode/
+.codex/
+
+# Logs and runtime scratch
+logs/
+Quest02/logs/
+runs/
+feature_cache/
+
+# Large model/checkpoint artifacts
+*.pth
+*.pt
+*.ckpt
+*.onnx
+*.h5
+checkpoints/
+Quest02/checkpoints/
+model/*.pt
+Quest02/model/*.pt
+model/*.pth
+Quest02/model/*.pth
+outputs/**/checkpoints/
+Quest02/outputs/**/checkpoints/
+outputs/**/feature_cache/
+Quest02/outputs/**/feature_cache/
+
+# Dataset images and bulky raw assets.
+# CSV metadata, score tables, and submission files remain trackable.
+data/**/*.jpg
+data/**/*.jpeg
+data/**/*.png
+data/**/*.bmp
+data/**/*.webp
+Quest02/data/**/*.jpg
+Quest02/data/**/*.jpeg
+Quest02/data/**/*.png
+Quest02/data/**/*.bmp
+Quest02/data/**/*.webp
+
+# Archived old experiment payloads are local-only.
+Archives/
+Quest02/Archives/
+
+# Do not globally ignore CSV files: submissions and score tables are core artifacts.
