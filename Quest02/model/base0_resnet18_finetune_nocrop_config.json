@@ -1,0 +1,21 @@
+{
+  "seed": 42,
+  "data_dir": "/home/thkim0/github/AIFFEL_quest_rs/MainQuest/Quest02/data/RS18A",
+  "model": "torchvision.models.resnet18",
+  "weights": "ResNet18_Weights.IMAGENET1K_V1",
+  "num_classes": 2,
+  "fine_tuning": "full",
+  "val_ratio": 0.2,
+  "batch_size": 16,
+  "epochs": 10,
+  "learning_rate": 0.0001,
+  "weight_decay": 0.0001,
+  "optimizer": "AdamW",
+  "loss": "CrossEntropyLoss",
+  "augmentation": "none",
+  "experiment": "nocrop_resize_224x224",
+  "transform": "Resize((224, 224)) -> ToTensor -> ImageNet Normalize",
+  "checkpoint_path": "/home/thkim0/github/AIFFEL_quest_rs/MainQuest/Quest02/model/base0_resnet18_finetune_nocrop_best.pt",
+  "history_path": "/home/thkim0/github/AIFFEL_quest_rs/MainQuest/Quest02/model/base0_resnet18_finetune_nocrop_history.csv",
+  "submission_path": "/home/thkim0/github/AIFFEL_quest_rs/MainQuest/Quest02/submissionA_resnet18_finetune_nocrop.csv"
+}

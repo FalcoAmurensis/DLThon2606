@@ -1,0 +1,63 @@
+run,name,shape,num_params
+PR0_loaded_nocrop_prep_baseline,conv1.weight,"(64, 3, 7, 7)",9408
+PR0_loaded_nocrop_prep_baseline,bn1.weight,"(64,)",64
+PR0_loaded_nocrop_prep_baseline,bn1.bias,"(64,)",64
+PR0_loaded_nocrop_prep_baseline,layer1.0.conv1.weight,"(64, 64, 3, 3)",36864
+PR0_loaded_nocrop_prep_baseline,layer1.0.bn1.weight,"(64,)",64
+PR0_loaded_nocrop_prep_baseline,layer1.0.bn1.bias,"(64,)",64
+PR0_loaded_nocrop_prep_baseline,layer1.0.conv2.weight,"(64, 64, 3, 3)",36864
+PR0_loaded_nocrop_prep_baseline,layer1.0.bn2.weight,"(64,)",64
+PR0_loaded_nocrop_prep_baseline,layer1.0.bn2.bias,"(64,)",64
+PR0_loaded_nocrop_prep_baseline,layer1.1.conv1.weight,"(64, 64, 3, 3)",36864
+PR0_loaded_nocrop_prep_baseline,layer1.1.bn1.weight,"(64,)",64
+PR0_loaded_nocrop_prep_baseline,layer1.1.bn1.bias,"(64,)",64
+PR0_loaded_nocrop_prep_baseline,layer1.1.conv2.weight,"(64, 64, 3, 3)",36864
+PR0_loaded_nocrop_prep_baseline,layer1.1.bn2.weight,"(64,)",64
+PR0_loaded_nocrop_prep_baseline,layer1.1.bn2.bias,"(64,)",64
+PR0_loaded_nocrop_prep_baseline,layer2.0.conv1.weight,"(128, 64, 3, 3)",73728
+PR0_loaded_nocrop_prep_baseline,layer2.0.bn1.weight,"(128,)",128
+PR0_loaded_nocrop_prep_baseline,layer2.0.bn1.bias,"(128,)",128
+PR0_loaded_nocrop_prep_baseline,layer2.0.conv2.weight,"(128, 128, 3, 3)",147456
+PR0_loaded_nocrop_prep_baseline,layer2.0.bn2.weight,"(128,)",128
+PR0_loaded_nocrop_prep_baseline,layer2.0.bn2.bias,"(128,)",128
+PR0_loaded_nocrop_prep_baseline,layer2.0.downsample.0.weight,"(128, 64, 1, 1)",8192
+PR0_loaded_nocrop_prep_baseline,layer2.0.downsample.1.weight,"(128,)",128
+PR0_loaded_nocrop_prep_baseline,layer2.0.downsample.1.bias,"(128,)",128
+PR0_loaded_nocrop_prep_baseline,layer2.1.conv1.weight,"(128, 128, 3, 3)",147456
+PR0_loaded_nocrop_prep_baseline,layer2.1.bn1.weight,"(128,)",128
+PR0_loaded_nocrop_prep_baseline,layer2.1.bn1.bias,"(128,)",128
+PR0_loaded_nocrop_prep_baseline,layer2.1.conv2.weight,"(128, 128, 3, 3)",147456
+PR0_loaded_nocrop_prep_baseline,layer2.1.bn2.weight,"(128,)",128
+PR0_loaded_nocrop_prep_baseline,layer2.1.bn2.bias,"(128,)",128
+PR0_loaded_nocrop_prep_baseline,layer3.0.conv1.weight,"(256, 128, 3, 3)",294912
+PR0_loaded_nocrop_prep_baseline,layer3.0.bn1.weight,"(256,)",256
+PR0_loaded_nocrop_prep_baseline,layer3.0.bn1.bias,"(256,)",256
+PR0_loaded_nocrop_prep_baseline,layer3.0.conv2.weight,"(256, 256, 3, 3)",589824
+PR0_loaded_nocrop_prep_baseline,layer3.0.bn2.weight,"(256,)",256
+PR0_loaded_nocrop_prep_baseline,layer3.0.bn2.bias,"(256,)",256
+PR0_loaded_nocrop_prep_baseline,layer3.0.downsample.0.weight,"(256, 128, 1, 1)",32768
+PR0_loaded_nocrop_prep_baseline,layer3.0.downsample.1.weight,"(256,)",256
+PR0_loaded_nocrop_prep_baseline,layer3.0.downsample.1.bias,"(256,)",256
+PR0_loaded_nocrop_prep_baseline,layer3.1.conv1.weight,"(256, 256, 3, 3)",589824
+PR0_loaded_nocrop_prep_baseline,layer3.1.bn1.weight,"(256,)",256
+PR0_loaded_nocrop_prep_baseline,layer3.1.bn1.bias,"(256,)",256
+PR0_loaded_nocrop_prep_baseline,layer3.1.conv2.weight,"(256, 256, 3, 3)",589824
+PR0_loaded_nocrop_prep_baseline,layer3.1.bn2.weight,"(256,)",256
+PR0_loaded_nocrop_prep_baseline,layer3.1.bn2.bias,"(256,)",256
+PR0_loaded_nocrop_prep_baseline,layer4.0.conv1.weight,"(512, 256, 3, 3)",1179648
+PR0_loaded_nocrop_prep_baseline,layer4.0.bn1.weight,"(512,)",512
+PR0_loaded_nocrop_prep_baseline,layer4.0.bn1.bias,"(512,)",512
+PR0_loaded_nocrop_prep_baseline,layer4.0.conv2.weight,"(512, 512, 3, 3)",2359296
+PR0_loaded_nocrop_prep_baseline,layer4.0.bn2.weight,"(512,)",512
+PR0_loaded_nocrop_prep_baseline,layer4.0.bn2.bias,"(512,)",512
+PR0_loaded_nocrop_prep_baseline,layer4.0.downsample.0.weight,"(512, 256, 1, 1)",131072
+PR0_loaded_nocrop_prep_baseline,layer4.0.downsample.1.weight,"(512,)",512
+PR0_loaded_nocrop_prep_baseline,layer4.0.downsample.1.bias,"(512,)",512
+PR0_loaded_nocrop_prep_baseline,layer4.1.conv1.weight,"(512, 512, 3, 3)",2359296
+PR0_loaded_nocrop_prep_baseline,layer4.1.bn1.weight,"(512,)",512
+PR0_loaded_nocrop_prep_baseline,layer4.1.bn1.bias,"(512,)",512
+PR0_loaded_nocrop_prep_baseline,layer4.1.conv2.weight,"(512, 512, 3, 3)",2359296
+PR0_loaded_nocrop_prep_baseline,layer4.1.bn2.weight,"(512,)",512
+PR0_loaded_nocrop_prep_baseline,layer4.1.bn2.bias,"(512,)",512
+PR0_loaded_nocrop_prep_baseline,fc.weight,"(2, 512)",1024
+PR0_loaded_nocrop_prep_baseline,fc.bias,"(2,)",2

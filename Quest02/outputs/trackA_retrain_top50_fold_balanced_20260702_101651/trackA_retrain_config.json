@@ -1,0 +1,22 @@
+{
+  "seed": 42,
+  "run_name": "trackA_retrain_top50_fold_balanced_20260702_101651",
+  "data_dir": "/home/thkim0/github/AIFFEL_quest_rs/MainQuest/Quest02/data/RS18A",
+  "baseline_checkpoint_path": "/home/thkim0/github/AIFFEL_quest_rs/MainQuest/Quest02/model/base0_resnet18_finetune_best.pt",
+  "oof_score_path": "/home/thkim0/github/AIFFEL_quest_rs/MainQuest/Quest02/outputs/trackB_oof_mislabel/oof_mislabel_scores.csv",
+  "oof_config_path": "/home/thkim0/github/AIFFEL_quest_rs/MainQuest/Quest02/outputs/trackB_oof_mislabel/trackB_oof_mislabel_config.json",
+  "expected_oof_checkpoint": "best_holdout_auc",
+  "rebuild_best_auc_oof_if_needed": true,
+  "require_best_auc_oof": true,
+  "active_candidate_name": "candidate_top50_fold_balanced",
+  "candidate_top50_per_fold": 10,
+  "candidate_top100_per_fold": 20,
+  "val_ratio": 0.2,
+  "batch_size": 16,
+  "epochs": 10,
+  "learning_rate": 0.0001,
+  "weight_decay": 0.0001,
+  "dup_weight_min": 0.5,
+  "dup_weight_power": 1.0,
+  "output_dir": "/home/thkim0/github/AIFFEL_quest_rs/MainQuest/Quest02/outputs/trackA_retrain_top50_fold_balanced_20260702_101651"
+}

@@ -1,0 +1,50 @@
+{
+  "seed": 42,
+  "v2_detail_path": "/home/thkim0/github/AIFFEL_quest_rs/MainQuest/Quest02/outputs/trackB_070103_v2/trackB_v2_scores_detail.csv",
+  "v1_embeddings_path": "/home/thkim0/github/AIFFEL_quest_rs/MainQuest/Quest02/outputs/trackB_070102/resnet18_embeddings.npy",
+  "output_dir": "/home/thkim0/github/AIFFEL_quest_rs/MainQuest/Quest02/outputs/trackB_070104_v3_20260701_211612",
+  "panel_anchor_ids": [
+    "train_00179",
+    "train_01138",
+    "train_00149",
+    "train_00325",
+    "train_00459",
+    "train_01307",
+    "train_00901",
+    "train_00587",
+    "train_00692",
+    "train_00423",
+    "train_01245",
+    "train_00101",
+    "train_01223",
+    "train_00834",
+    "train_00562",
+    "train_00012",
+    "train_00365"
+  ],
+  "panel_anchor_paths": [],
+  "anchor_count": 17,
+  "ood_raw_col": "ood_score_original",
+  "final_ood_col": "ood_score_v3_max",
+  "mislabel_col_for_submission": "mislabel_score_v2_add",
+  "dup_col_for_submission": "dup_score",
+  "panelness_strength": 1,
+  "panelness_cap_threshold": 0.9,
+  "panelness_cap_value": 0.3,
+  "panelness_anchor_weight": 0.7,
+  "panelness_nn1_weight": 0.3,
+  "anchor_methods": {
+    "max": "panelness_anchor_max_rank",
+    "top3": "panelness_anchor_top3_rank",
+    "top5": "panelness_anchor_top5_rank",
+    "proto": "panelness_anchor_proto_rank"
+  },
+  "submission_default_path": "/home/thkim0/github/AIFFEL_quest_rs/MainQuest/Quest02/outputs/trackB_070104_v3_20260701_211612/submission_trackB_ood_v3_anchor.csv",
+  "submission_variant_paths": {
+    "ood_score_v3_max": "/home/thkim0/github/AIFFEL_quest_rs/MainQuest/Quest02/outputs/trackB_070104_v3_20260701_211612/submission_trackB_ood_v3_max.csv",
+    "ood_score_v3_top3": "/home/thkim0/github/AIFFEL_quest_rs/MainQuest/Quest02/outputs/trackB_070104_v3_20260701_211612/submission_trackB_ood_v3_top3.csv",
+    "ood_score_v3_top5": "/home/thkim0/github/AIFFEL_quest_rs/MainQuest/Quest02/outputs/trackB_070104_v3_20260701_211612/submission_trackB_ood_v3_top5.csv",
+    "ood_score_v3_proto": "/home/thkim0/github/AIFFEL_quest_rs/MainQuest/Quest02/outputs/trackB_070104_v3_20260701_211612/submission_trackB_ood_v3_proto.csv"
+  },
+  "detail_v3_path": "/home/thkim0/github/AIFFEL_quest_rs/MainQuest/Quest02/outputs/trackB_070104_v3_20260701_211612/trackB_v3_scores_detail.csv"
+}

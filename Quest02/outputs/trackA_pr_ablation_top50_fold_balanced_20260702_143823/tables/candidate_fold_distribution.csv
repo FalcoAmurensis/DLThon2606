@@ -1,0 +1,11 @@
+candidate,group,value,count
+candidate_top50_fold_balanced,fold,0,10
+candidate_top50_fold_balanced,fold,1,10
+candidate_top50_fold_balanced,fold,2,10
+candidate_top50_fold_balanced,fold,3,10
+candidate_top50_fold_balanced,fold,4,10
+candidate_top100_fold_balanced,fold,0,20
+candidate_top100_fold_balanced,fold,1,20
+candidate_top100_fold_balanced,fold,2,20
+candidate_top100_fold_balanced,fold,3,20
+candidate_top100_fold_balanced,fold,4,20

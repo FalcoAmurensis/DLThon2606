@@ -1,0 +1,5 @@
+candidate,group,value,count
+candidate_top50_fold_balanced,label,0,7
+candidate_top50_fold_balanced,label,1,43
+candidate_top100_fold_balanced,label,0,17
+candidate_top100_fold_balanced,label,1,83

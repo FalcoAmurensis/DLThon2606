@@ -1,0 +1,11 @@
+{
+  "embedding_source": "torchvision_resnet18_imagenet1k_v1_fc_identity",
+  "torchvision_weights": "ResNet18_Weights.IMAGENET1K_V1",
+  "embedding_dim": 512,
+  "rows": 1366,
+  "batch_size": 64,
+  "num_workers": 0,
+  "image_transform": "ImageClassification(\n    crop_size=[224]\n    resize_size=[256]\n    mean=[0.485, 0.456, 0.406]\n    std=[0.229, 0.224, 0.225]\n    interpolation=InterpolationMode.BILINEAR\n)",
+  "embeddings_path": "/home/thkim0/github/AIFFEL_quest_rs/MainQuest/Quest02/outputs/trackB_070104_imagenet_resnet18_embeddings/imagenet_resnet18_embeddings.npy",
+  "embedding_ids_path": "/home/thkim0/github/AIFFEL_quest_rs/MainQuest/Quest02/outputs/trackB_070104_imagenet_resnet18_embeddings/imagenet_resnet18_embedding_ids.csv"
+}

@@ -1,0 +1,13 @@
+subset,label,count,total
+train_before_removal,0,650,1092
+train_before_removal,1,442,1092
+removed_from_train_top50_fold_balanced,0,6,42
+removed_from_train_top50_fold_balanced,1,36,42
+train_after_removal,0,644,1050
+train_after_removal,1,406,1050
+val_all,0,163,274
+val_all,1,111,274
+val_without_candidates,0,162,266
+val_without_candidates,1,104,266
+val_candidates_only,0,1,8
+val_candidates_only,1,7,8

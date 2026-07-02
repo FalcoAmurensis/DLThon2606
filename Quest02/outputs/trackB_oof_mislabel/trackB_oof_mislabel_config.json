@@ -1,0 +1,20 @@
+{
+  "seed": 42,
+  "track_a_root": "/home/thkim0/github/AIFFEL_quest_rs/MainQuest/Quest02/data/RS18A",
+  "train_labels_path": "/home/thkim0/github/AIFFEL_quest_rs/MainQuest/Quest02/data/RS18A/train_labels.csv",
+  "train_dir": "/home/thkim0/github/AIFFEL_quest_rs/MainQuest/Quest02/data/RS18A/train",
+  "output_dir": "/home/thkim0/github/AIFFEL_quest_rs/MainQuest/Quest02/outputs/trackB_oof_mislabel",
+  "v2_detail_path": "/home/thkim0/github/AIFFEL_quest_rs/MainQuest/Quest02/outputs/trackB_070103_v2_20260701_223101/trackB_v2_scores_detail.csv",
+  "n_splits": 5,
+  "model": "torchvision.models.resnet18",
+  "weights": "ResNet18_Weights.IMAGENET1K_V1",
+  "num_classes": 2,
+  "batch_size": 16,
+  "epochs": 10,
+  "learning_rate": 0.0001,
+  "weight_decay": 0.0001,
+  "optimizer": "AdamW",
+  "loss": "CrossEntropyLoss",
+  "oof_predict_checkpoint": "final",
+  "oof_score_path": "/home/thkim0/github/AIFFEL_quest_rs/MainQuest/Quest02/outputs/trackB_oof_mislabel/oof_mislabel_scores.csv"
+}

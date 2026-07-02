@@ -1,0 +1,19 @@
+{
+  "seed": 42,
+  "data_dir": "/home/thkim0/github/AIFFEL_quest_rs/MainQuest/Quest02/data/RS18A",
+  "model": "torchvision.models.resnet50",
+  "weights": "ResNet50_Weights.IMAGENET1K_V2",
+  "num_classes": 2,
+  "val_ratio": 0.2,
+  "batch_size": 16,
+  "epochs": 10,
+  "learning_rate": 0.0001,
+  "weight_decay": 0.0001,
+  "optimizer": "AdamW",
+  "loss": "CrossEntropyLoss",
+  "augmentation": "none",
+  "transform": "Resize(256) -> CenterCrop(224) -> ToTensor -> ImageNet Normalize",
+  "checkpoint_path": "/home/thkim0/github/AIFFEL_quest_rs/MainQuest/Quest02/model/base0_resnet50_best.pt",
+  "history_path": "/home/thkim0/github/AIFFEL_quest_rs/MainQuest/Quest02/model/base0_resnet50_history.csv",
+  "result_path": "/home/thkim0/github/AIFFEL_quest_rs/MainQuest/Quest02/rawresult.csv"
+}

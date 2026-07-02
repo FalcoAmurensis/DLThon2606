@@ -1,0 +1,7 @@
+score_col,grid_path
+ood_score_original,/home/thkim0/github/AIFFEL_quest_rs/MainQuest/Quest02/outputs/trackB_070104_v3_20260701_214839/visualizations/top50_ood_score_original.png
+global_nn1_ood,/home/thkim0/github/AIFFEL_quest_rs/MainQuest/Quest02/outputs/trackB_070104_v3_20260701_214839/visualizations/top50_global_nn1_ood.png
+ood_score_v3_max,/home/thkim0/github/AIFFEL_quest_rs/MainQuest/Quest02/outputs/trackB_070104_v3_20260701_214839/visualizations/top50_ood_score_v3_max.png
+ood_score_v3_top3,/home/thkim0/github/AIFFEL_quest_rs/MainQuest/Quest02/outputs/trackB_070104_v3_20260701_214839/visualizations/top50_ood_score_v3_top3.png
+ood_score_v3_top5,/home/thkim0/github/AIFFEL_quest_rs/MainQuest/Quest02/outputs/trackB_070104_v3_20260701_214839/visualizations/top50_ood_score_v3_top5.png
+ood_score_v3_proto,/home/thkim0/github/AIFFEL_quest_rs/MainQuest/Quest02/outputs/trackB_070104_v3_20260701_214839/visualizations/top50_ood_score_v3_proto.png

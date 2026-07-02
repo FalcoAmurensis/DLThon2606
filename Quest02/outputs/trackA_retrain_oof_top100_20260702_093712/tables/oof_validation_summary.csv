@@ -1,0 +1,5 @@
+check,value
+oof_rows,1366
+oof_unique_ids,1366
+oof_source,rebuilt_from_best_auc_checkpoints
+mislabel_score_recompute_max_abs_diff,0.0

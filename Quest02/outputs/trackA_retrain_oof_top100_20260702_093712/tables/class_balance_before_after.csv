@@ -1,0 +1,13 @@
+subset,label,count,total
+train_before_removal,0,650,1092
+train_before_removal,1,442,1092
+removed_from_train_top100,0,30,84
+removed_from_train_top100,1,54,84
+train_after_removal,0,620,1008
+train_after_removal,1,388,1008
+val_all,0,163,274
+val_all,1,111,274
+val_without_top100,0,158,258
+val_without_top100,1,100,258
+val_top100_only,0,5,16
+val_top100_only,1,11,16

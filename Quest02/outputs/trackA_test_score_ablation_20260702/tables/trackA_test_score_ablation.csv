@@ -1,0 +1,5 @@
+variant,method,csv_path,csv_exists,test_score,delta_vs_r0
+R0 Baseline,ResNet-18 baseline,outputs/trackA_retrain_top50_fold_balanced_20260702_102054/submissions/submissionA_R0_baseline.csv,True,0.82147,0.0
+R1 Remove Top50,OOF top50 fold-balanced removal,outputs/trackA_retrain_top50_fold_balanced_20260702_102054/submissions/submissionA_R1_top50_fold_balanced_remove.csv,True,0.84763,0.02615999999999996
+R2 Remove + Dup Weight,OOF top50 removal + duplicate down-weighting,outputs/trackA_retrain_top50_fold_balanced_20260702_102054/submissions/submissionA_R2_top50_fold_balanced_remove_dup_weight.csv,True,0.83145,0.009979999999999989
+PR1 Remove Top50,PR baseline + OOF top50 fold-balanced removal,outputs/trackA_pr_ablation_top50_fold_balanced_20260702_143823/submissions/submissionA_PR1_top50_fold_balanced_remove.csv,True,0.86568,0.04420999999999997

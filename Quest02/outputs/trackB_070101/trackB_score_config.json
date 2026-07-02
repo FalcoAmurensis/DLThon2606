@@ -1,0 +1,12 @@
+{
+  "seed": 42,
+  "frozen_trackb_classifier_path": "/home/thkim0/github/AIFFEL_quest_rs/MainQuest/Quest02/outputs/trackA_070101_rs18_dust_classifier/trackB_classifier_scores.csv",
+  "scorebaseline_path": "/home/thkim0/github/AIFFEL_quest_rs/MainQuest/Quest02/outputs/scorebaseline/scorebaseline_scores.csv",
+  "cnn_dup_path": "/home/thkim0/github/AIFFEL_quest_rs/MainQuest/Quest02/outputs/cnn_cosine_dupscore/cnn_cosine_dup_scores.csv",
+  "phash_dup_path": "/home/thkim0/github/AIFFEL_quest_rs/MainQuest/Quest02/outputs/phash_only_dupscore/phash_only_dup_scores.csv",
+  "detail_path": "/home/thkim0/github/AIFFEL_quest_rs/MainQuest/Quest02/outputs/trackB_070101/trackB_ood_dup_scores_detail.csv",
+  "submission_path": "/home/thkim0/github/AIFFEL_quest_rs/MainQuest/Quest02/outputs/trackB_070101/submissionB_ood_dup_only.csv",
+  "ood_formula": "rank01(0.40*frozen_ood_rank + 0.20*scorebaseline_ood + 0.15*density_outlier + 0.15*centroid_outlier + 0.10*low_confidence)",
+  "dup_formula": "max(phash_dup_score, cnn_dup_score)",
+  "mislabel_score_policy": "0.0 placeholder; computed in trackA_retrain_070102.ipynb"
+}

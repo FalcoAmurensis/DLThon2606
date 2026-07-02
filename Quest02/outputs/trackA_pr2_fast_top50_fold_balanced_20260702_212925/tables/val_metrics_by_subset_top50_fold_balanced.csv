@@ -1,0 +1,4 @@
+subset,n,label0,label1,loss,acc,auc,mean_dusty_prob,run,epoch
+val_all,274,163,111,0.8878195327128807,0.7445255474452555,0.8160061902393191,0.29834243112141773,PR2_top50_fold_balanced_remove_dup_weight,4
+val_without_candidates,265,162,103,0.7579231181234684,0.769811320754717,0.8426824883135562,0.3046556335343403,PR2_top50_fold_balanced_remove_dup_weight,4
+val_candidates_only,9,1,8,4.712689717610677,0.0,0.0,0.11245979371516215,PR2_top50_fold_balanced_remove_dup_weight,4

@@ -1,0 +1,2 @@
+candidate,v2_top100_overlap,v2_top100_overlap_ratio,pearson_corr,spearman_corr
+candidate_top100_fold_balanced,22,0.22,0.23031625211486884,0.18105659902792365

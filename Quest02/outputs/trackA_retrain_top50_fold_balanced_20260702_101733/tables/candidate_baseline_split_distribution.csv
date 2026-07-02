@@ -1,0 +1,5 @@
+candidate,group,value,count
+candidate_top50_fold_balanced,baseline_split,train,42
+candidate_top50_fold_balanced,baseline_split,val,8
+candidate_top100_fold_balanced,baseline_split,train,80
+candidate_top100_fold_balanced,baseline_split,val,20

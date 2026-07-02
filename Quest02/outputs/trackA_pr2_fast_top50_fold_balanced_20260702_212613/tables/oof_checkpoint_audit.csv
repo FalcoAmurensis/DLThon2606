@@ -1,0 +1,6 @@
+fold,best_checkpoint_path,best_checkpoint_exists,final_checkpoint_exists,checkpoint_best_epoch,checkpoint_best_auc,history_best_epoch,history_best_auc
+0,/home/thkim0/github/AIFFEL_quest_rs/MainQuest/Quest02/outputs/trackB_oof_mislabel/checkpoints/fold0_best_holdout_auc.pt,True,True,9,0.7740009948598905,9,0.7740009948598905
+1,/home/thkim0/github/AIFFEL_quest_rs/MainQuest/Quest02/outputs/trackB_oof_mislabel/checkpoints/fold1_best_holdout_auc.pt,True,True,10,0.7518126045733408,10,0.7518126045733408
+2,/home/thkim0/github/AIFFEL_quest_rs/MainQuest/Quest02/outputs/trackB_oof_mislabel/checkpoints/fold2_best_holdout_auc.pt,True,True,7,0.8007250418293363,7,0.8007250418293363
+3,/home/thkim0/github/AIFFEL_quest_rs/MainQuest/Quest02/outputs/trackB_oof_mislabel/checkpoints/fold3_best_holdout_auc.pt,True,True,1,0.8202090979868758,1,0.8202090979868758
+4,/home/thkim0/github/AIFFEL_quest_rs/MainQuest/Quest02/outputs/trackB_oof_mislabel/checkpoints/fold4_best_holdout_auc.pt,True,True,4,0.794405516627739,4,0.794405516627739

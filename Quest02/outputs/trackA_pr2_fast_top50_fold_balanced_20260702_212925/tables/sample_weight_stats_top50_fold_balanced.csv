@@ -1,0 +1,3 @@
+run,rows,sum_sample_weight,mean_sample_weight,min_sample_weight,q25_sample_weight,q50_sample_weight,q75_sample_weight,max_sample_weight,min_dup_score,mean_dup_score,max_dup_score,q90_dup_score,q99_dup_score
+PR1,1051,1051.0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.08789248334919125,1.0,0.25,1.0
+PR2,1051,1004.8125,0.9560537583254044,0.5,1.0,1.0,1.0,1.0,0.0,0.08789248334919125,1.0,0.25,1.0
